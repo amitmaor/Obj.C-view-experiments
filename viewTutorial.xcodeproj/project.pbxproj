@@ -21,6 +21,7 @@
 		E3C76D8B19C21B3C00408C89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C76D6D19C21B3C00408C89 /* UIKit.framework */; };
 		E3C76D9319C21B3C00408C89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3C76D9119C21B3C00408C89 /* InfoPlist.strings */; };
 		E3C76D9519C21B3C00408C89 /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C76D9419C21B3C00408C89 /* viewTutorialTests.m */; };
+		E3C76DA019C21CD100408C89 /* AMGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C76D9F19C21CD100408C89 /* AMGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E3C76D9019C21B3C00408C89 /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		E3C76D9219C21B3C00408C89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3C76D9419C21B3C00408C89 /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		E3C76D9E19C21CD100408C89 /* AMGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGrid.h; sourceTree = "<group>"; };
+		E3C76D9F19C21CD100408C89 /* AMGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				E3C76D7B19C21B3C00408C89 /* Main.storyboard */,
 				E3C76D7E19C21B3C00408C89 /* AMViewController.h */,
 				E3C76D7F19C21B3C00408C89 /* AMViewController.m */,
+				E3C76D9E19C21CD100408C89 /* AMGrid.h */,
+				E3C76D9F19C21CD100408C89 /* AMGrid.m */,
 				E3C76D8119C21B3C00408C89 /* Images.xcassets */,
 				E3C76D7019C21B3C00408C89 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				E3C76D7A19C21B3C00408C89 /* AMAppDelegate.m in Sources */,
 				E3C76D8019C21B3C00408C89 /* AMViewController.m in Sources */,
 				E3C76D7619C21B3C00408C89 /* main.m in Sources */,
+				E3C76DA019C21CD100408C89 /* AMGrid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
